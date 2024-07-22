@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #4CAF50;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .service-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .service-item {
+            background-color: #e0f7fa;
+            border: 2px solid #00acc1;
+            border-radius: 10px;
+            margin: 10px 0;
+            padding: 20px;
+            font-size: 20px;
+            color: #00796b;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .service-item:hover {
+            background-color: #b2ebf2;
+            transform: scale(1.05);
+        }
+        .service-item span {
+            font-weight: bold;
+            color: #d32f2f;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Social Media Services</h1>
+    <ul class="service-list">
+        <li class="service-item">
+            10k FOLLOWERR - <span>Rs 29 CLICK</span>
+            <button class="button" onclick="buyService('10k FOLLOWERR')">Buy Now</button>
+        </li>
+        <li class="service-item">
+            4000 HRS WATCH TIME - <span>Rs 49 CLICK</span>
+            <button class="button" onclick="buyService('4000 HRS WATCH TIME')">Buy Now</button>
+        </li>
+        <li class="service-item">
+            5k SUBSCRIBE - <span>Rs 99 CLICK</span>
+            <button class="button" onclick="buyService('5k SUBSCRIBE')">Buy Now</button>
+        </li>
+        <li class="service-item">
+            BLUE TICR - <span>Rs 29 CLICK</span>
+            <button class="button" onclick="buyService('BLUE TICR')">Buy Now</button>
+        </li>
+        <li class="service-item">
+            MONETIZE YOUR YOUTUBE CHANNEL - <span>Rs 49 CLICK</span>
+            <button class="button" onclick="buyService('MONETIZE YOUR YOUTUBE CHANNEL')">Buy Now</button>
+        </li>
+    </ul>
+
+    <script>
+        function buyService(serviceName) {
+            alert('Please complete the payment for ' + serviceName + ' before proceeding.');
+            // Add your payment logic here
+        }
+    </script>
+</body>
+</html>
+
+--------!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Username Input</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #e0f7fa; /* Light cyan background */
+        }
+        .container {
+            text-align: center;
+            background-color: #ffccbc; /* Light orange background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            font-size: 18px;
+            color: #00796b; /* Teal text */
+        }
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            border: 2px solid #00796b; /* Teal border */
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #00796b; /* Teal background */
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #004d40; /* Darker teal on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <label for="username">Enter your user name:</label>
+        <input type="text" id="username" name="username">
+        <br>
+        <button>Next</button>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Channel Form</title>
+</head>
+<body>
+    <form>
+        <label for="channelName">Enter your YouTube channel name:</label>
+        <input type="text" id="channelName" name="channelName"><br><br>
+
+        <label for="channelUrl">Enter your YouTube channel URL:</label>
+        <input type="url" id="channelUrl" name="channelUrl"><br><br>
+
+        <label for="videoUrl">Enter your video URL/link:</label>
+        <input type="url" id="videoUrl" name="videoUrl"><br><br>
+
+        <button type="submit">Next</button>
+    </form>
+</body>
+</html>
+--!
+
+
